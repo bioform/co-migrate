@@ -1,16 +1,15 @@
-co-logger
+co-migrate
 =========
 
-Winston based logger for [compound.js](https://github.com/1602/compound)
+[compound.js](https://github.com/1602/compound) migrations extension based on [node-migrate](https://github.com/bioform/co-migrate)
 
-Replace default CompoundJS logger with [Winston](https://github.com/flatiron/winston/)
 
 Installation
 ============
 
 Step 1. Install using npm:
 
-    npm install co-migration --save
+    npm install co-migrate --save
 
 Step 2. Add `co-migrate` to `config/autoload.js`, for example:
 
