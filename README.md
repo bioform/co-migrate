@@ -1,7 +1,7 @@
 co-migrate
 =========
 
-[compound.js](https://github.com/1602/compound) migrations extension based on [node-migrate](https://github.com/bioform/co-migrate)
+[compound.js](https://github.com/1602/compound) migrations extension based on [node-migrate](https://github.com/visionmedia/node-migrate)
 
 
 Installation
