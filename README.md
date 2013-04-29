@@ -8,9 +8,23 @@ Replace default CompoundJS logger with [Winston](https://github.com/flatiron/win
 Installation
 ============
 
-Install using npm:
+Step 1. Install using npm:
 
     npm install co-migration --save
+
+Step 2. Add `co-migrate` to `config/autoload.js`, for example:
+
+```javascript
+module.exports = function (compound) {
+    return [
+        'ejs-ext',
+        'jugglingdb',
+        'seedjs',
+        'co-logger',
+        'co-migrate'
+    ].map(require);
+};
+```
 
 
 Usages
