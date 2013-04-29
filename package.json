@@ -1,0 +1,23 @@
+{
+  "name": "co-migrate",
+  "version": "0.0.0",
+  "description": "mmm",
+  "main": "index.js",
+  "dependencies": {
+    "migrate": "latest"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/bioform/co-migrate.git"
+  },
+  "keywords": [
+    "compound",
+    "migration"
+  ],
+  "author": "Andrew Krasnoff <andrew.krasnoff@gmail.com>",
+  "license": "BSD",
+  "readmeFilename": "README.md"
+}
